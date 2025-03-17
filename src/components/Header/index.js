@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   txtLogo: {
     fontSize: 33,
     fontWeight: '900',
-    color: '#3096e1',
+    color: '#ec9006',
     marginTop: 20,
     marginBottom: 20,
   },

@@ -23,13 +23,16 @@ export default function App() {
       <Tab.Navigator screenOptions={({route}) => ({
           tabBarIcon: ({color, size}) => {
             const { name } = icons[route.name];
-            return <Icon name={name} size={size} color={color}/>
+            return <Icon name={name} size={size} color={'#ec9006'}/>
           },
           headerShown: false,
           tabBarActiveTintColor: '#3096e1',
           tabBarInactiveTintColor: 'gray',
           tabBarStyle: {
             backgroundColor: 'white',
+          },
+          tabBarLabelStyle: {
+            color: '#ec9006'
           }
         })}>
         <Tab.Screen name='Home' component={Home}/>

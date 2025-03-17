@@ -55,11 +55,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 50,
-    backgroundColor: '#b5b5b5'
+    backgroundColor: '#ec9006',
   },
   txtTopico: {
     fontWeight: 'bold',
-    color: '#3096e1',
+    color: 'white',
     
   }
 });
